@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>BarakaMtana</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Baraka Mtana">
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    </head>
+    <body>
+        <div class="entire-page">
+            <!-- navigation bar -->
+            <div class="container">
+                <nav>
+                    <h1 class = logo >Baraka Mtana.</h1>
+                    <ul>
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#services">SERVICES</a></li>
+                        <li><a href="#mywork">PORTFOLIO</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                        <li><a href="#blog">BLOG</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- basic info -->
+            <div class = "basic_info">
+                <p class = "info_description">
+                    <span style="color: whitesmoke; font-weight: bold; font-size: 30px;">Hello!</span>
+                    <br>
+                    <span style="color: whitesmoke; font-weight: bold; font-size: 30px;">I'm Baraka Mtana </span>
+                    <br>
+                    <span style="color:red; font-weight:bold; font-size: 30px;" >A Data Scientist from Kenya</span>
+                </p>
+            </div>
+            <!-- about me -->
+            <div id = "about">
+                <div class="container">
+                    <div class="row">
+                        <div class="about-col-1">
+                            <img src="/images/baraka.jpg" alt="baraka's photo">
+                        </div>
+                        <div class="about-col-2">
+                            <h1 class="subtitle">About Me</h1>
+                            <p>I specialize in uncovering hidden patterns and insights within large datasets. 
+                                I employ a combination of statistical techniques, 
+                                machine learning algorithms, 
+                                and data visualization tools to transform raw data into actionable knowledge
+                            <br>
+                            <br>
+                                With the use of a cocktail of techniques, ie. 
+                                programming, and machine learning algorithms to analyze data, I
+                                help businesses and organizations make informed decisions. 
+                                Whether it's identifying patterns in customer behavior, 
+                                optimizing operational efficiency, or forecasting future trends, 
+                                my primary focus is transforming data into actionable knowledge. 
+                                I also create visualizations and interactive
+                                dashboards that present these insights in a clear and digestible way for stakeholders 
+                                and technical consumers of my work.
+                            </p>
+                            <div class = "tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            </div>
+                            <div class = "tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>Python</span><br>Writing custom Python Scripts</li>
+                                    <li><span>R programming</span><br>Writing custom R Scripts</li>
+                                    <li><span>Machine Learning</span><br>Supervised and Unsupervised Learning</li>
+                                </ul>
+                            </div>
+                            <div class = "tab-contents" id="education">
+                                <ul>
+                                    <li><span>WorldQuant University</span><br>Applied Data Science Lab</li>
+                                    <li><span>Kisii University</span><br>Bachelor of commerce (Banking and Finance)</li>
+                                </ul>
+                            </div>
+                            <div class = "tab-contents" id="experience">
+                                <ul>
+                                    <li><span>Data Science Intern</span><br> 2023 - Current</li>
+                                    <li><span>Purcasing Officer</span><br>2022 Novemver -2022 October-</li>
+                                    <li><span>Purchasing and Controlls Intern</span><br>2022 March to 2022 October</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- services -->
+            <div id = "services">
+                <div class="container">
+                    <h1 class="subtitle">My Services</h1>
+                    <div class="services-list">
+                        <div>
+                            <i class="fa fa-code" aria-hidden="true"></i>
+                            <h2>Data Analysis</h2>
+                            <p>collecting, cleaning, and analyzing data 
+                                to help organizations make informed, 
+                                data-driven decisions.
+                            </p>
+                            <a href="#">Learn More</a>
+                        </div>
+                        <div>
+                            <i class="fa fa-line-chart" aria-hidden="true"></i>
+                            <h2>Machine Learning</h2>
+                            <p>collecting, cleaning, and analyzing data 
+                                to help organizations make informed, 
+                                data-driven decisions.
+                            </p>
+                            <a href="#">Learn More</a>
+                        </div>
+                        <div>
+                            <i class="fa fa-database" aria-hidden="true"></i>
+                            <h2>Data Engineering</h2>
+                            <p>collecting, cleaning, and analyzing data 
+                                to help organizations make informed, 
+                                data-driven decisions.
+                            </p>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- portfolio -->
+            <div id = "portfolio">
+                <div class="container">
+                    <h1 class="subtitle">My Work</h1>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="/images/R.jpg" alt="R logo">
+                            <div class = "layer">
+                                <h3>R Scripts</h3>
+                                <p>This is my capstone project at Google Data Analytics</p>
+                                <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="/images/python.jpg" alt = python logo>
+                            <div class = "layer">
+                                <h3>Python Scripts</h3>
+                                <p>Custon Python Scripts on Jupyter notebook and Python modules</p>
+                                <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="/images/paperviz.jpg" alt="visualizations">
+                            <div class = "layer">
+                                <h3>Tableau Visualizations</h3>
+                                <p>This is a sample of the visualizations I've done on Tableau</p>
+                                <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <!-- contact -->
+            <div id="contact">
+                <div class="container">
+                    <h1>Get in Touch</h1>
+                    <div class="row">
+                        <div class="contact-left">
+                            
+                            <div class = "box">
+                                <div class = "icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                                <div class = "text">
+                                    <h3>Address</h3>
+                                    <p>Regen, Rugiri,<br>00902 Kikuyu,<br>Kiambu, Kenya.</p>
+                                </div>
+                            </div>
+                            <div class = "box">
+                                <div class = "icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                                <div class = "text">
+                                    <h3>Phone</h3>
+                                    <p>0717174490</p>
+                                </div>
+                            </div>
+                            <div class = "box">
+                                <div class = "icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                                <div class = "text">
+                                    <h3>Email</h3>
+                                    <p>barakamtana@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                            
+                        <div class="contact-right">
+                            <form>
+                                <h2>Send Message</h2>
+                                <div class = "inputbox">
+                                    <input type="text" name="" required = "required" placeholder="Your Name">
+                                </div>
+                                <div class = "inputbox">
+                                    <input type="text" name="" required = "required" placeholder="Email">
+                                </div>
+                                <div class = "inputbox message" >
+                                    <textarea name="" required = "required" placeholder="Message"></textarea>
+                                </div>
+                                <!-- Add a submit button -->
+                                <button type = "submit" class="sendbtn">Send</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+         </div>
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+        </script>
+    </body>
+</html>
